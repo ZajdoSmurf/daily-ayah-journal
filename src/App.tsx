@@ -39,7 +39,7 @@ function App() {
 
       {/* ✅ */}
       <a
-        href="https://github.com/zajdo"
+        href="https://github.com/ZajdoSmurf"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-2 right-2 text-xs text-gray-500 dark:text-gray-400 font-medium opacity-80 hover:opacity-100 transition-opacity duration-300 z-50"
