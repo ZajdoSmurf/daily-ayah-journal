@@ -18,24 +18,34 @@ function App() {
       
       {/* 🌙 Slide Toggle Switch */}
       <div
-  onClick={() => setDarkMode(!darkMode)}
-  className={`w-20 h-10 flex items-center px-1 rounded-full cursor-pointer transition-colors duration-300 ${
-    darkMode ? 'bg-gray-700' : 'bg-gray-300'
-  }`}
->
-  <div
-    className={`w-8 h-8 rounded-full flex items-center justify-center text-white text-sm transition-all duration-300 ${
-      darkMode
-        ? 'translate-x-[2.5rem] bg-white text-black'
-        : 'translate-x-0 bg-white text-yellow-500'
-    }`}
-  >
-    {darkMode ? '🌙' : '☀️'}
-  </div>
-</div>
+        onClick={() => setDarkMode(!darkMode)}
+        className={`w-20 h-10 flex items-center px-1 rounded-full cursor-pointer transition-colors duration-300 ${
+          darkMode ? 'bg-gray-700' : 'bg-gray-300'
+        }`}
+      >
+        <div
+          className={`w-8 h-8 rounded-full flex items-center justify-center text-white text-sm transition-all duration-300 ${
+            darkMode
+              ? 'translate-x-[2.5rem] bg-white text-black'
+              : 'translate-x-0 bg-white text-yellow-500'
+          }`}
+        >
+          {darkMode ? '🌙' : '☀️'}
+        </div>
+      </div>
 
       {/* 📖 Ayah Display */}
       <DailyAyah />
+
+      {/* ✅ */}
+      <a
+        href="https://github.com/zajdo"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-2 right-2 text-xs text-gray-500 dark:text-gray-400 font-medium opacity-80 hover:opacity-100 transition-opacity duration-300 z-50"
+      >
+        🧠 Made by <span className="font-semibold underline underline-offset-2 hover:text-blue-500">Zajdo</span>
+      </a>
     </div>
   );
 }
