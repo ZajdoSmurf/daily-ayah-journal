@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: 'UthmaniScript';
+  src: url('/fonts/Uthmani.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.quran-text-override {
+  font-family: 'Amiri Quran', serif !important;
+  direction: rtl;
+  unicode-bidi: isolate;
+  text-align: right;
+  font-size: 2rem; /* Bigger for clarity */
+  line-height: 2.75rem;
+  font-weight: 600; /* ✅ Makes the font slightly thicker */
+  letter-spacing: -0.5px; /* ✅ Slightly tightens letters */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
