@@ -39,13 +39,30 @@ function App() {
 
       {/* ✅ */}
       <a
-        href="https://github.com/ZajdoSmurf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-2 right-2 text-xs text-gray-500 dark:text-gray-400 font-medium opacity-80 hover:opacity-100 transition-opacity duration-300 z-50"
-      >
-        🧠 Made by <span className="font-semibold underline underline-offset-2 hover:text-blue-500">Zajdo</span>
-      </a>
+    href="https://github.com/ZajdoSmurf/daily-ayah-journal"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="fixed bottom-10 right-2 text-xs text-gray-500 dark:text-gray-400 opacity-80 hover:opacity-100 transition-opacity"
+  >
+    📂 View on GitHub
+  </a>
+
+  <a
+    href="https://github.com/ZajdoSmurf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="fixed bottom-2 right-2 text-xs text-gray-500 dark:text-gray-400 font-medium opacity-80 hover:opacity-100 transition-opacity duration-300"
+  >
+    🧠 Made by <span className="font-semibold underline underline-offset-2 hover:text-blue-500">Zajdo</span>
+  </a>
+      <a
+  href="https://github.com/ZajdoSmurf/daily-ayah-journal"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-10 right-2 text-xs text-gray-500 dark:text-gray-400 opacity-80 hover:opacity-100 transition-opacity duration-300"
+>
+  📂 View on GitHub
+</a>
     </div>
   );
 }
